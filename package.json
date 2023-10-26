@@ -1,0 +1,20 @@
+{
+  "name": "vitest-template",
+  "packageManager": "yarn@4.0.0",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0",
+    "vitest": "^0.34.6"
+  },
+  "scripts": {
+    "coverage": "vitest run --coverage",
+    "dev": "vite",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "@badrap/result": "^0.2.13",
+    "axios": "^1.5.1",
+    "ulidx": "^2.2.1"
+  }
+}
